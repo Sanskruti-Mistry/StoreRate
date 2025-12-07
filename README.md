@@ -162,11 +162,20 @@ Frontend runs at: `http://localhost:5173` (Vite) or `http://localhost:3000` (CRA
 │   │   └── App.jsx
 │   └── package.json
 ```
+## 📸 Screenshots
 
----
+<img width="1867" height="834" alt="image" src="https://github.com/user-attachments/assets/3adbe090-4650-41ce-819b-f5d853ed6a0a" />
+<img width="1860" height="846" alt="image" src="https://github.com/user-attachments/assets/52d69c38-352a-46ee-9444-54ffc6809d78" />
+<img width="1864" height="826" alt="image" src="https://github.com/user-attachments/assets/9732a3ce-fc60-4218-91c7-18410dd1ac35" />
+<img width="1879" height="834" alt="image" src="https://github.com/user-attachments/assets/3959cd49-db4f-48aa-ae10-d23b10996275" />
+<img width="1874" height="852" alt="image" src="https://github.com/user-attachments/assets/02e20875-2d0c-4e2f-8ce6-bfbc38846d79" />
+<img width="1858" height="847" alt="image" src="https://github.com/user-attachments/assets/52c45b67-edd7-4391-818d-4b0637f73ac6" />
 
 
-## 📬 Questions / Support
 
-If you need help running the project, debugging Prisma migrations, or adding features — drop a message here and I’ll help.
+
+
+
+
+
 
