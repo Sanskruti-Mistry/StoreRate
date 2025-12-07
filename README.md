@@ -165,42 +165,6 @@ Frontend runs at: `http://localhost:5173` (Vite) or `http://localhost:3000` (CRA
 
 ---
 
-## ✅ Recommended Development Practices
-
-- Keep `JWT_SECRET` safe — use different values for production.
-- Use environment-specific database connections (development / staging / production).
-- Add rate-limiting and input validation (e.g., `express-rate-limit`, `joi`).
-- Log requests and errors (e.g., `winston`, `morgan`).
-- Write unit/integration tests for critical endpoints.
-
----
-
-## 🧪 Testing
-
-- Use Postman or Insomnia to test API endpoints.
-- Run backend tests (if included) with:
-```bash
-npm test
-```
-
----
-
-## 🤝 Contributing
-
-Feel free to fork and open pull requests. Please:
-
-1. Fork repository
-2. Create feature branch: `git checkout -b feat/your-feature`
-3. Commit changes & push
-4. Open PR describing the change
-
----
-
-## 📝 License
-
-This project is open-source under the MIT License.
-
----
 
 ## 📬 Questions / Support
 
