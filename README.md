@@ -170,6 +170,7 @@ Frontend runs at: `http://localhost:5173` (Vite) or `http://localhost:3000` (CRA
 <img width="1879" height="834" alt="image" src="https://github.com/user-attachments/assets/3959cd49-db4f-48aa-ae10-d23b10996275" />
 <img width="1874" height="852" alt="image" src="https://github.com/user-attachments/assets/02e20875-2d0c-4e2f-8ce6-bfbc38846d79" />
 <img width="1858" height="847" alt="image" src="https://github.com/user-attachments/assets/52c45b67-edd7-4391-818d-4b0637f73ac6" />
+<img width="1867" height="847" alt="image" src="https://github.com/user-attachments/assets/8d75682b-2b18-4146-b0dd-031a94aeaee0" />
 
 
 
