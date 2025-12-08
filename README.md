@@ -44,7 +44,7 @@ A full‑stack web application that lets users discover local stores and rate th
 Open `psql` or pgAdmin and run:
 
 ```sql
-CREATE USER sanskruti WITH PASSWORD 'password';
+CREATE USER username WITH PASSWORD 'password';
 ALTER USER username CREATEDB;
 CREATE DATABASE store OWNER username;
 GRANT ALL PRIVILEGES ON DATABASE store TO username;
