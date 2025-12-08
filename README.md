@@ -44,10 +44,10 @@ A full‑stack web application that lets users discover local stores and rate th
 Open `psql` or pgAdmin and run:
 
 ```sql
-CREATE USER sanskruti WITH PASSWORD '123456';
-ALTER USER sanskruti CREATEDB;
-CREATE DATABASE store OWNER sanskruti;
-GRANT ALL PRIVILEGES ON DATABASE store TO sanskruti;
+CREATE USER sanskruti WITH PASSWORD 'password';
+ALTER USER username CREATEDB;
+CREATE DATABASE store OWNER username;
+GRANT ALL PRIVILEGES ON DATABASE store TO username;
 ```
 
 ### 2. Backend setup
@@ -60,7 +60,7 @@ npm install
 Create a `.env` in `backend/`:
 
 ```env
-DATABASE_URL="postgresql://sanskruti:123456@localhost:5432/store?schema=public"
+DATABASE_URL="postgresql://username:password@localhost:5432/store?schema=public"
 JWT_SECRET="supersecret_dev_key_change_later"
 JWT_EXPIRES_IN="7d"
 PORT=3000
@@ -78,9 +78,6 @@ Seed initial data:
 ```bash
 # Create default Admin (admin@example.com / Admin@1234)
 node prisma/seedAdmin.js
-
-# Optional: seed more mock stores and owners
-node prisma/seedMoreData.js
 ```
 
 Start backend:
@@ -109,17 +106,6 @@ Frontend runs at: `http://localhost:5173` (Vite) or `http://localhost:3000` (CRA
 
 ---
 
-## 🔑 Default Credentials (seeded)
-
-- **Administrator**
-  - Email: `admin@example.com`
-  - Password: `Admin@1234`
-
-- **Test Owner (if seeded)**
-  - Email: `aarav@store.com`
-  - Password: `Owner@1234`
-
----
 
 ## 🧭 API (example endpoints)
 
